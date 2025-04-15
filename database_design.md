@@ -10,8 +10,6 @@ This document outlines the MongoDB schema design for the Zen Class program, cove
 
 Represents the students in the program.
 
-```json
-{
   "_id": ObjectId,
   "name": "Surya",
   "email": "Surya@example.com",
@@ -23,9 +21,6 @@ Represents the students in the program.
 
 Tracks the number of problems solved by each user.
 
-json
-Copy
-Edit
 {
   "_id": ObjectId,
   "user_id": ObjectId,
@@ -36,9 +31,6 @@ Edit
 
 Tracks daily attendance for users.
 
-json
-Copy
-Edit
 {
   "_id": ObjectId,
   "user_id": ObjectId,
@@ -50,9 +42,6 @@ Edit
 
 Represents topics taught in class.
 
-json
-Copy
-Edit
 {
   "_id": ObjectId,
   "topic": "React Hooks",
@@ -63,9 +52,6 @@ Edit
 
 Represents tasks assigned to users.
 
-json
-Copy
-Edit
 {
   "_id": ObjectId,
   "user_id": ObjectId,
@@ -78,9 +64,6 @@ Edit
 
 Tracks company drives and the students who appeared.
 
-json
-Copy
-Edit
 {
   "_id": ObjectId,
   "company": "Google",
@@ -95,9 +78,6 @@ Edit
 
 Represents mentors and their mentees.
 
-json
-Copy
-Edit
 {
   "_id": ObjectId,
   "name": "Mentor Name",
